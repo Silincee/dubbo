@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d8992fc-2fd0-44d9-a625-17a2f0262f74" name="Default Changelist" comment="" />
+    <list default="true" id="8d8992fc-2fd0-44d9-a625-17a2f0262f74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-interface/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/boot-user-service-provider/src/main/java/com/rin/gmall/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/src/main/java/com/rin/gmall/OrderServiceComsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/src/main/java/com/rin/gmall/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/src/main/java/com/rin/gmall/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-springboot/order-service-comsumer/src/test/java/com/rin/gmall/OrderServiceComsumerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-interface/gmall-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-interface/gmall-interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-interface/target/gmall-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-interface/target/gmall-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/atguigu/gmall/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/atguigu/gmall/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-consumer/src/main/resources/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-consumer/target/classes/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-consumer/target/classes/consumer.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +44,9 @@
         <option value="spring-beans.schema" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,10 +65,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1i65EQ24CPCWlRxlnjHVd6j3zCr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/order-service-consumer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -125,11 +160,26 @@
       <workItem from="1601256574884" duration="503000" />
       <workItem from="1601257379679" duration="445000" />
       <workItem from="1601257843699" duration="2260000" />
-      <workItem from="1601260163659" duration="3853000" />
+      <workItem from="1601260163659" duration="4903000" />
+      <workItem from="1601273132690" duration="56000" />
+      <workItem from="1601280159262" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,9 +1,13 @@
-package com.atguigu.gmall.service.impl;
+package com.rin.gmall.service.impl;
 
+import java.util.Arrays;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.stereotype.Service;
+
 
 import com.atguigu.gmall.bean.UserAddress;
 import com.atguigu.gmall.service.OrderService;
@@ -21,20 +25,28 @@ import com.atguigu.gmall.service.UserService;
 @Service
 public class OrderServiceImpl implements OrderService {
 
-	@Autowired // <dubbo:reference>
+	//dubbo直连,远程引用Service，从注册中心发现 代替了@Autowired
+	@Reference(loadbalance="random",timeout=1000)
 	UserService userService;
+
+	@HystrixCommand(fallbackMethod="hello") // 熔断、服务降级功能
 	@Override
 	public List<UserAddress> initOrder(String userId) {
 		// TODO Auto-generated method stub
 		System.out.println("用户id："+userId);
 		//1、查询用户的收货地址
 		List<UserAddress> addressList = userService.getUserAddressList(userId);
-		for (UserAddress userAddress : addressList) {
-			System.out.println(userAddress.getUserAddress());
-		}
 		return addressList;
 	}
 	
+
+
+
+
+	public List<UserAddress> hello(String userId) {
+		// TODO Auto-generated method stub
+		return Arrays.asList(new UserAddress(10, "测试地址", "1", "测试", "测试", "Y"));
+	}
 	
 
 }

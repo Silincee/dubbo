@@ -15,7 +15,7 @@
     <dubbo:application name="order-service-consumer"></dubbo:application>
     <!--    2. 制定注册中心的位置-->
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"></dubbo:registry>
-<!--3 声明需要调用的远程服务的接口，生成远程服务代理-->
+<!--3 声明需要调用的远程服务的接口，生成远程服务代理 也是一个bean-->
     <dubbo:reference interface="com.atguigu.gmall.service.UserService" id="userService"></dubbo:reference>
 
 <!--    监控中心-->
